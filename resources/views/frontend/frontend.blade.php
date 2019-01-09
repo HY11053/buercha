@@ -18,8 +18,8 @@
 <div class="header">
     <div class="box1">
         <div class="header_l png">
-            <div class="logo"><a href="http://www.ysg.cn/"><img src="/frontend/images/logo.jpg"  alt="一扫光零食量贩"/></a></div>
-            <div class="h_sc"><a href="javascript:void(0)" onclick="javascript:AddFavorite(window.location, document.title)">收藏一扫光</a></div>
+            <div class="logo"><a href="http://www.ysg.cn/"><img src="/frontend/images/logo.jpg"  alt="不二茶铺零食量贩"/></a></div>
+            <div class="h_sc"><a href="javascript:void(0)" onclick="javascript:AddFavorite(window.location, document.title)">收藏不二茶铺</a></div>
         </div>
         <div class="h_wz"><img src="/frontend/images/h_wz.png" class="png" width="133" height="58" /></div>
         <div class="h_dianhua">7x24H免费热线：4006181717</div>
@@ -138,7 +138,7 @@
 </div>
 @yield('main_content')
 <div class="footer_nav">
-    <div class="box"> <a href="/" title="一扫光休闲食品加盟">网站首页</a> <a href="/guanyuwomen/"  title="关于我们">关于我们</a> <a href="/products/"  title="产品展示">产品展示</a> <a href="/lianxi/"  title="联系方式">联系方式</a> <a href="/map/"  title="网站地图">网站地图</a> </div>
+    <div class="box"> <a href="/" title="不二茶铺休闲食品加盟">网站首页</a> <a href="/guanyuwomen/"  title="关于我们">关于我们</a> <a href="/products/"  title="产品展示">产品展示</a> <a href="/lianxi/"  title="联系方式">联系方式</a> <a href="/map/"  title="网站地图">网站地图</a> </div>
 </div>
 <div class="footer">
     <div class="box">
@@ -147,16 +147,15 @@
             <div class="footer_dh"> <span><img src="/frontend/images/footer_dh.png" width="229" height="49" class="png" /></span> </div>
             <div class="footer_wx"> <img src="/frontend/images/footer_wx.png" width="101" height="101" class="png" />
                 <p>手机轻松扫一扫<br />
-                    关注一扫光二维码<br />
+                    关注不二茶铺二维码<br />
                     惊喜乐不停</p>
             </div>
         </div>
         <div class="footer_wz">
-            <p>上海卡哇伊实业有限公司 版权所有 2006-2019 <a href="http://www.miitbeian.gov.cn" style="color:#B25900" rel="nofollow">沪ICP备15007550号</a> </p>
+            <p>上海莎福瑞餐饮管理有限公司 版权所有 2006-2019 <a href="http://www.miitbeian.gov.cn" style="color:#B25900" rel="nofollow">沪ICP备15007550号</a> </p>
             <p>友情提示:投资有风险，选择需谨慎！</p>
-            <p><a href="http://www.miitbeian.gov.cn" style="color:#B25900" rel="nofollow">沪ICP备15007550号</a> <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011302003912" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.ucc.cn/images/batb.png" style="float:left;">沪公网安备31011302003912号</a></p>
-            <p>电话： 021-57727777 传真：021-61805576 邮政编码:200444</p>
-            <p>地址:中国上海市沪太路2899弄42号43号</p>
+            <p>电话： 139-1781-9212 传真：021-00000000 邮政编码:200444</p>
+            <p>地址:上海市宝山区共和新路5000弄绿地风尚6号楼1603室</p>
         </div>
     </div>
 </div>

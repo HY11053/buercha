@@ -16,6 +16,7 @@
     <link href="/frontend/css/news.css" rel="stylesheet" type="text/css" />
 @stop
 @section('main_content')
+    <div class="weizhi2">当前位置： <a href="http://www.ysg.cn/">主页</a> &gt; <a href="/zhinan/">加盟指南</a> &gt; </div>
     <div class="box" style="background-color:#fff;">
     <div class="contentbox">
         <div class="content_bt">
@@ -88,7 +89,7 @@
             <div class="plr20-tb15 mb20 bg-ff box-shadow ">
                 <div class="lh24">
                     <a target="_blank" href="/blist/all/" class="fr s-c999">更多</a>
-                    <h3 class="f22">干果热门加盟项目</h3>
+                    <h3 class="f22">不二茶铺热门产品</h3>
                 </div>
                 <dl class="tu-list clearfix mt15" style="margin-top: 10px;">
                     <dd class="magnify magnify-txt  mr10 "><a target="_blank" href="/brand/1226/" class="img-block">
@@ -121,7 +122,7 @@
             <div class="bg-ff p20 mt20">
                 <div class="lh24">
                     <a target="_blank" href="/bnlist/" class="fr s-c999">更多</a>
-                    <h3 class="f22">加盟资讯</h3>
+                    <h3 class="f22">不二茶铺加盟资讯</h3>
                 </div>
                 <ul class="tw-list tw-list-h84 mt15">
                     <li><a target="_blank" href="/news/18350/" class="img-block magnify"><img src="http://www.xiuxianshipin.com/storage/uploads/image/2018/11/06/b93ed1de2da565fea0ec2e4751c4b2cc.jpg" alt=""></a>

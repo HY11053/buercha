@@ -28,14 +28,7 @@ Route::group(['domain' => 'm.ganxi168.com'], function () {
     Route::post('/phonecomplate/','Mobile\PhoneController@phoneComplate');
 });
 Route::get('/','Frontend\IndexController@Index');
-Route::get('sb','Frontend\ListNewsController@shebeiList')->where('path','[a-zA-Z\/]+')->name('newslist');
-Route::get('sb/gx','Frontend\ListNewsController@shebeiList')->where('path','[a-zA-Z\/]+')->name('newslist');
-Route::get('sb/sx','Frontend\ListNewsController@shebeiList')->where('path','[a-zA-Z\/]+')->name('newslist');
-Route::get('sb/hg','Frontend\ListNewsController@shebeiList')->where('path','[a-zA-Z\/]+')->name('newslist');
-Route::get('sb/xx','Frontend\ListNewsController@shebeiList')->where('path','[a-zA-Z\/]+')->name('newslist');
-Route::get('sb/fz','Frontend\ListNewsController@shebeiList')->where('path','[a-zA-Z\/]+')->name('newslist');
-Route::get('kd/md','Frontend\ListNewsController@shebeiList')->where('path','[a-zA-Z\/]+')->name('newslist');
-Route::get('{path}','Frontend\ListNewsController@listNews')->where('path','[a-zA-Z0-9\/]+')->name('newslist');
+Route::get('map','Frontend\ListNewsController@map')->where('path','[a-zA-Z\/]+')->name('newslist');
 Route::get('{path}/{id}.html','Frontend\ArticleController@GetArticle')->where(['id'=>'[0-9]+','path'=>'[a-zA-Z\/]+'])->name('articles');
 Route::get('{path}/page/{page}','Frontend\ListNewsController@listNews')->where('path', '[a-zA-Z/]+')->name('newspagelist');
 Route::post('/phonecomplate/','Frontend\PhoneController@phoneComplate');

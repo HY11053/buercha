@@ -9,8 +9,10 @@ select { border: 1px solid #ccc; }
 li { list-style: none; }
 .left { float: left; }
 .right { float: right; }
-.weizhi{ height:42px;  line-height:42px; color:#666; width:980px; margin:0 auto; text-align:left;}
+.weizhi{ height:42px;  line-height:42px; color:#666;  margin:0 auto; text-align:left;}
+.weizhi2{ height:42px; width: 1200px;  line-height:42px; color:#666;  margin:0 auto; text-align:left;}
 .weizhi a{ color:#666;}
+.weizhi2 a{ color:#666;}
 /* ----- clear fix for floats ----- */
 
 /* these styles instruct non-IE browsers to render container elements so that they fully enclose floats */		
@@ -99,7 +101,7 @@ opacity: 1;
 .footer_nav { height: 45px; line-height: 45px; color: #fff; background-color: #313137; margin-top: 16px; clear: both; }
 .footer_nav .box { text-align: center; }
 .footer_nav a { margin: 0 35px; color: #fff; font-size: 14px; }
-.footer { background: url(../images/footer_bg.jpg) no-repeat center top; height: 270px; }
+.footer {height: 270px; }
 .footer .box { position: relative; }
 .footer_logo { float: left; padding: 30px 0 0 15px; width: 524px; }
 .footer_dh { float: left; padding-top: 65px; width: 332px; }
@@ -194,9 +196,9 @@ opacity: 1;
 .product_all a.dq { background: url(../images/chanpin_a.jpg) no-repeat; color: #fff; }
 .xg_news { padding-left: 48px; }
 .xg_news .title { border-bottom: 1px solid #D6D6D6; height: 48px; position: relative; margin-right: 48px; }
-.xg_news .title strong { position: absolute; left: 0; top: 0; display: block; font-size: 18px; font-family: "微软雅黑"; height: 47px; line-height: 47px; border-bottom: 2px solid #FCBB1D; color: #333; }
+.xg_news .title strong { position: absolute; left: 0; top: 0; display: block; font-size: 18px; font-family: "微软雅黑"; height: 47px; line-height: 47px; border-bottom: 2px solid #ff810f; color: #333; }
 .xg_news ul { padding: 10px 0 30px 0; }
-.xg_news ul li { float: left; padding-left: 10px; width: 408px; height: 26px; line-height: 26px; font-size: 14px; background: url(../images/dian.gif) no-repeat left center; overflow: hidden; margin-right: 48px; }
+.xg_news ul li { float: left; padding-left: 10px; width: 353px; height: 26px; line-height: 26px; font-size: 14px; background: url(../images/dian.gif) no-repeat left center; overflow: hidden; margin-right: 48px; }
 .xg_news ul li em { float: right; font-style: normal; color: #999; }
 .youshi16 { background: url(../images/16.jpg) no-repeat center top; height: 180px; margin-top: 15px; }
 .youshi16 a { display: block; height: 150px; text-indent: -9999px }
@@ -254,6 +256,7 @@ opacity: 1;
 .p20 {
     padding: 20px;
     margin-top: 20px;
+    padding-top: 0px;
 }
 .bg-ff {
     background-color: #fff;
@@ -263,16 +266,13 @@ opacity: 1;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
-.lh24 h3 {
-    position: relative;
-}
 .lh24 h3:after, .rank-bar dt h3:after {
     position: absolute;
     left: -10px;
     top: 2px;
     width: 3px;
     height: 18px;
-    background-color: #ff552e;
+    background-color: #ff810f;
     content: '';
 }
 .mt30 {

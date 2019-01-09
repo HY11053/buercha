@@ -32,12 +32,12 @@
 
 .content_bt{ padding:40px 0 14px;  margin:0 42px; border-bottom:1px dotted #ddd;}
 .content_ly{ padding:14px; color:#999; text-align:center;}
-.content_bt h1{ text-align:center; font-size:28px; font-family:"microsoft yahei","黑体"; color:#333;}
+.content_bt h1{ text-align:center; font-size:24px; font-family:"microsoft yahei","黑体"; color:#333;}
 .fenxiangdaima{ padding:14px 48px; font-size:14px;}
 .content2{ padding:16px 48px 48px 48px; font-size:14px; line-height:200%; color:#666;}
 .bshare-custom{ float:right;} 
 .nr_biaoqian { height:22px; line-height:22px;}
-.nr_biaoqian b{padding-left:18px; background:url(../images/news/biaoqian.gif) no-repeat left center; float:left; font-weight:100; color:#999; margin-right:10px;}
+.nr_biaoqian b{padding-left:18px; background:url(../images/biaoqian.gif) no-repeat left center; float:left; font-weight:100; color:#999; margin-right:10px;}
 .nr_biaoqian a{ float:left; color:#6FBA2C; margin-right:20px;}
 .shangxiapian{ padding:0 48px 48px 48px; font-size:14px; }
 
@@ -52,7 +52,7 @@
 .map_list dl{ height:48px; margin-top:14px; background:url(../images/map_bg.jpg) repeat-y;}
 .map_list dl dt{ float:left; width:120px; height:48px; line-height:48px; text-align:center; color:#fff; font-size:18px; font-family:"microsoft yahei";}
 .map_list dl dt a{ color:#fff;}
-.map_list dl dd{ width:793px; padding:8px 0; float:right; line-height:30px; border-top:1px solid #e1e1e1; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1; }
+.map_list dl dd{ width:793px; padding:8px 0; float:left; line-height:30px; border-top:1px solid #e1e1e1; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1; }
 .map_list dl dd a{ float:left; padding:0 13px 0 12px; background:url(../images/fg2.jpg) no-repeat right center; color:#666; white-space:nowrap;}
 .contentbox{width: 870px; background: #fff; float: left;}
 .tu-list dd {
@@ -112,6 +112,9 @@
 }
 .lh24 h3 {
     position: relative;
+    font: 16px 'Microsoft YaHei';
+    color: #262626;
+    font-weight: bold;
 }
 .plr20-tb15 {
     padding: 15px 20px;

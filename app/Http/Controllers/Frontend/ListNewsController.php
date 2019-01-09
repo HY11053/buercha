@@ -74,4 +74,9 @@ class ListNewsController extends Controller
         return view('frontend.shebei_list',compact('thistypeinfo','pagelists','sontypes','productions','mendianlists'));
 
     }
+
+    public function map()
+    {
+        return view('frontend.map');
+    }
 }

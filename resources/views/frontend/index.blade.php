@@ -8,6 +8,7 @@
     <meta http-equiv="mobile-agent" content="format=html5; url={{str_replace('http://www.','http://m.',config('app.url'))}}" />
     <link rel="alternate" media="only screen and(max-width: 640px)" href="{{str_replace('http://www.','http://m.',config('app.url'))}}" >
     <link rel="canonical" href="{{config('app.url')}}{{str_replace('','',Request::getrequesturi())}}"/>
+    <link href="/frontend/css/video-js.css" rel="stylesheet">
 @stop
 @section('main_content')
     <div style="z-index:-9; height:auto; overflow:hidden;">
@@ -47,7 +48,28 @@
                         <div style="background:url(/frontend/images/5_05.gif) no-repeat center top; height:116px;">
                             <div class="box"></div>
                         </div>
-                    </a> </li>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="online()" target="_blank">
+                        <div style="background:url(/frontend/images/6_01.jpg) no-repeat center top; height:116px;">
+                            <div class="box"></div>
+                        </div>
+                        <div style="background:url(/frontend/images/6_02.jpg) no-repeat center top; height:116px;">
+                            <div class="box"></div>
+                        </div>
+                        <div style="background:url(/frontend/images/6_03.jpg) no-repeat center top; height:116px;">
+                            <div class="box"></div>
+                        </div>
+                        <div style="background:url(/frontend/images/6_04.jpg) no-repeat center top; height:116px;">
+                            <div class="box"></div>
+                        </div>
+                        <div style="background:url(/frontend/images/6_05.jpg) no-repeat center top; height:116px;">
+                            <div class="box"></div>
+                        </div>
+                    </a>
+                </li>
+
             </ul>
         </div>
     </div>
@@ -68,19 +90,19 @@
                 <div class="tit"><a href="/ganyan/" target="_blank"><i class="icon5"></i>不二故事</a></div>
             </li>
             <li>
-                <div class="img_show"><a href="/ganyan/" target="_blank"><img src="/frontend/images/ic6.jpg" alt="加盟案例"></a></div>
+                <div class="img_show"><a href="/ganyan/" target="_blank"><img src="/frontend/images/ic6.jpg" alt="不二之选"></a></div>
                 <div class="tit"><a href="/ganyan/" target="_blank"><i class="icon5"></i>不二之选</a></div>
             </li>
             <li>
-                <div class="img_show"><a href="/guanyuwomen/gstd/" target="_blank"><img src="/frontend/images/ic1.jpg" alt="公司团队"></a></div>
+                <div class="img_show"><a href="/guanyuwomen/gstd/" target="_blank"><img src="/frontend/images/ic1.jpg" alt="品牌优势"></a></div>
                 <div class="tit"><a href="/guanyuwomen/gstd/" target="_blank"><i class="icon1"></i>品牌优势</a></div>
             </li>
             <li>
-                <div class="img_show"><a href="/zhinan/qspp/" target="_blank"><img src="/frontend/images/ic2.jpg" alt="强势品牌"></a></div>
+                <div class="img_show"><a href="/zhinan/qspp/" target="_blank"><img src="/frontend/images/ic2.jpg" alt="加盟支持"></a></div>
                 <div class="tit"><a href="/zhinan/qspp/" target="_blank"><i class="icon2"></i>加盟支持</a></div>
             </li>
             <li>
-                <div class="img_show"><a href="/guanyuwomen/ccwl/" target="_blank"><img src="/frontend/images/ic3.jpg" alt="仓储物流"></a></div>
+                <div class="img_show"><a href="/guanyuwomen/ccwl/" target="_blank"><img src="/frontend/images/ic3.jpg" alt="加盟条件"></a></div>
                 <div class="tit"><a href="/guanyuwomen/ccwl/" target="_blank"><i class="icon3"></i>加盟条件</a></div>
             </li>
             <li>
@@ -92,34 +114,36 @@
     <div class="box clearfix m25">
         <!--媒体报道-->
         <div class="in_news1 left">
-            <h2 class="title"><strong><a href="/baodao/" target="_blank">媒体报道</a></strong><a href="/baodao/" class="more" target="_blank">更多+</a></h2>
+            <h2 class="title"><strong><a href="/baodao/" target="_blank">品牌简介</a></strong><a href="/baodao/" class="more" target="_blank">更多+</a></h2>
             <div class="shipin">
-               <video id="video" src="http://www.becpls.com/20170602.mp4" controls width="285" height="190"></video>
+                <video  width="280" height="190" id="my-player" class="video-js vjs-big-play-centered" playsinline controls preload="auto" poster="/frontend/images/about.png" data-setup='{}'>
+                    <source src="http://www.becpls.com/20170602.mp4" type="video/mp4">
+                </video>
             </div>
-            <p class="in_news1-bt">不二茶加盟携手央视亮相《中国合伙人》</p>
+            <p class="in_news1-bt">不二茶铺 品牌故事 只为做更用心的茶</p>
         </div>
 
         <!--最新活动-->
         <div class="in_news1 in_news left">
             <h2 class="title"><strong><a href="/qiyenews/" target="_blank">不二资讯</a></strong><a href="/qiyenews/" class="more" target="_blank">更多+</a></h2>
             <dl>
-                <dt><a href="/qiyenews/3116.html"><img src="/uploads/allimg/190104/1-1Z10415063I52-lp.jpg" alt="零经验，怎么选好零食店加盟品牌？【一扫光零食家】国内资深品牌" title="零经验，怎么选好零食店加盟品牌？【一扫光零食家】国内资深品牌" width="70px" height="70px"></a></dt>
-                <dd> <strong><a href="/qiyenews/3116.html" title="零经验，怎么选好零食店加盟品牌？【一扫光零食家】国内资深品牌" target="_blank">零经验，怎么选好零食店加盟品牌？【一扫光零食家】国内资深品牌</a></strong>
-                    <p>零经验，怎么选好 零食店加盟 品牌？对于想要开家零食加盟店的投资者来说，如果你对零食加盟乏...<a href="/qiyenews/3116.html" title="零经验，怎么选好零食店加盟品牌？【一扫光零食家】国内资深品牌" target="_blank">详情»</a></p>
+                <dt><a href="/qiyenews/3116.html"><img src="/uploads/allimg/190104/1-1Z10415063I52-lp.jpg" alt="零经验，怎么选好零食店加盟品牌？【不二茶铺零食家】国内资深品牌" title="零经验，怎么选好零食店加盟品牌？【不二茶铺零食家】国内资深品牌" width="70px" height="70px"></a></dt>
+                <dd> <strong><a href="/qiyenews/3116.html" title="零经验，怎么选好零食店加盟品牌？【不二茶铺零食家】国内资深品牌" target="_blank">零经验，怎么选好零食店加盟品牌？【不二茶铺零食家】国内资深品牌</a></strong>
+                    <p>零经验，怎么选好 零食店加盟 品牌？对于想要开家零食加盟店的投资者来说，如果你对零食加盟乏...<a href="/qiyenews/3116.html" title="零经验，怎么选好零食店加盟品牌？【不二茶铺零食家】国内资深品牌" target="_blank">详情»</a></p>
                 </dd>
 
             </dl>
             <ul>
-                <li><em>2019-01-02</em><a href="/qiyenews/3112.html" title="一扫光零食店加盟，教您如何提高门店收益" target="_blank">一扫光零食店加盟，教您如何提高门店收益</a></li>
-                <li><em>2018-12-28</em><a href="/qiyenews/3108.html" title="开零食加盟店，【一扫光零食家】与您分享正确的经营攻略" target="_blank">开零食加盟店，【一扫光零食家】与您分享正确的经营攻略</a></li>
-                <li><em>2018-12-26</em><a href="/qiyenews/3104.html" title="未来的零食店加盟市场还有投资空间吗？一扫光零食家为您来解答" target="_blank">未来的零食店加盟市场还有投资空间吗？一扫光零食家为您来解答</a></li>
-                <li><em>2018-12-24</em><a href="/qiyenews/3101.html" title="零食店加盟怎么才能经营好？【一扫光零食家】助你成功开店" target="_blank">零食店加盟怎么才能经营好？【一扫光零食家】助你成功开店</a></li>
-                <li><em>2018-12-20</em><a href="/qiyenews/3096.html" title="零食店加盟，【一扫光零食家】创业好商机" target="_blank">零食店加盟，【一扫光零食家】创业好商机</a></li>
+                <li><em>2019-01-02</em><a href="/qiyenews/3112.html" title="不二茶铺零食店加盟，教您如何提高门店收益" target="_blank">不二茶铺零食店加盟，教您如何提高门店收益</a></li>
+                <li><em>2018-12-28</em><a href="/qiyenews/3108.html" title="开零食加盟店，【不二茶铺零食家】与您分享正确的经营攻略" target="_blank">开零食加盟店，【不二茶铺零食家】与您分享正确的经营攻略</a></li>
+                <li><em>2018-12-26</em><a href="/qiyenews/3104.html" title="未来的零食店加盟市场还有投资空间吗？不二茶铺零食家为您来解答" target="_blank">未来的零食店加盟市场还有投资空间吗？不二茶铺零食家为您来解答</a></li>
+                <li><em>2018-12-24</em><a href="/qiyenews/3101.html" title="零食店加盟怎么才能经营好？【不二茶铺零食家】助你成功开店" target="_blank">零食店加盟怎么才能经营好？【不二茶铺零食家】助你成功开店</a></li>
+                <li><em>2018-12-20</em><a href="/qiyenews/3096.html" title="零食店加盟，【不二茶铺零食家】创业好商机" target="_blank">零食店加盟，【不二茶铺零食家】创业好商机</a></li>
 
             </ul>
         </div>
 
-        <!--一扫光企业形象宣传片2-->
+        <!--不二茶铺企业形象宣传片2-->
         <div class="main_news fl">
             <h2 class="title"><strong><a href="/qiyenews/" target="_blank">加盟指南</a></strong><a href="/qiyenews/" class="more" target="_blank">更多+</a></h2>
             <div class="synos">
@@ -150,7 +174,7 @@
         <div class="programme">
             <dl>
                 <dt><a href="/fangan/"><img src="/frontend/images/fanan3.jpg" alt="店面效果图"></a></dt>
-                <dd> <strong><a href="/fangan/">不二的茶统一门店形象</a></strong><span>旅游风STYLE  国际大师打造</span> <span><i>加盟资金：</i><em>52800元起</em> (北上广深除外)</span> <span>投资优势：客源大、回报高</span> <span><i>投资热度：</i>
+                <dd> <strong><a href="/fangan/">不二茶铺全球统一门店形象</a></strong><span>旅游风STYLE  国际大师打造</span> <span><i>整体投资：</i><em>422800元起</em> (北上广深除外)</span> <span>投资优势：客源大、回报高</span> <span><i>投资热度：</i>
 				<div class="xing4 png">★★★★★</div>
 				</span> <a href="javascript:void(0)" onclick="online()" class="btn1 png" target="_blank">在线咨询</a> <a href="javascript:void(0)" onclick="online()" class="btn2 png" target="_blank">申请加盟</a> </dd>
             </dl>
@@ -255,8 +279,8 @@
                 <li><img src="/frontend/images/wh6.jpg" alt="注重员工的精神建设，增强团队凝聚力"></li>
                 <li><img src="/frontend/images/wh7.jpg" alt="注重员工的精神建设，增强团队凝聚力"></li>
                 <li><img src="/frontend/images/wh8.jpg" alt="注重员工的精神建设，增强团队凝聚力"></li>
-                <li><img src="/frontend/images/wh8.jpg" alt="注重员工的精神建设，增强团队凝聚力"></li>
-                <li><img src="/frontend/images/wh8.jpg" alt="注重员工的精神建设，增强团队凝聚力"></li>
+                <li><img src="/frontend/images/wh9.jpg" alt="注重员工的精神建设，增强团队凝聚力"></li>
+                <li><img src="/frontend/images/wh10.jpg" alt="注重员工的精神建设，增强团队凝聚力"></li>
             </ul>
         </div>
     </div>
@@ -273,27 +297,27 @@
             <div class="con5-left-tu">
                 <div class="con5-left-tu1">
                     <div>
-                        <a href="">百福莱干洗店</a>
+                        <a href="">不二茶铺奉贤南桥店</a>
                     </div>
                 </div>
                 <div class="con5-left-tu2">
                     <div>
-                        <a href="/item/1323.shtml">赛维干洗店</a>
+                        <a href="#">不二茶铺浦东八佰伴店</a>
                     </div>
                 </div>
                 <div class="con5-left-tu3">
                     <div>
-                        <a href="#" rel="nofollow">邦纳福干洗店</a>
+                        <a href="#" rel="nofollow">不二茶铺镇坪路店</a>
                     </div>
                 </div>
                 <div class="con5-left-tu4">
                     <div>
-                        <a href="/item/1346.shtml">洁丰干洗店</a>
+                        <a href="#">不二茶铺镇坪路店</a>
                     </div>
                 </div>
                 <div class="con5-left-tu5">
                     <div>
-                        <a href="/item/1.shtml">UCC国际洗衣</a>
+                        <a href="#">不二茶铺浦东八佰伴店</a>
                     </div>
                 </div>
             </div>
@@ -328,7 +352,7 @@
         <div class="con5-right">
             <h1>经营指南</h1>
             <div></div>
-            <img src="http://www.czga.cn/storage/uploads/image/2019/01/04/bf1bc4bce8c4854a7e1c4b4465445de5.jpg">
+            <img src="/frontend/images/bf1bc4bce8c4854a7e1c4b4465445de5.jpg">
             <ul>
                 <li><a href="/profit/139562.shtml"><span>怎样开家高利润的干洗加盟店</span></a></li>
                 <li><a href="/profit/139564.shtml"><span>威特斯加盟干洗店利润好不好</span></a></li>
@@ -352,18 +376,18 @@
         <div class="in_news1 in_news left">
             <h2 class="title"><strong><a href="#" target="_blank">利润分析</a></strong><a href="/lirun/" class="more" target="_blank">更多+</a></h2>
             <dl>
-                <dt><a href="/lirun/3117.html"><img src="/uploads/allimg/190104/1-1Z10415305Q56-lp.jpg" alt="开家休闲食品加盟店，怎么提高店铺人气？【一扫光零食家】来教您！" title="开家休闲食品加盟店，怎么提高店铺人气？【一扫光零食家】来教您！" width="70px" height="70px"></a></dt>
-                <dd> <strong><a href="/lirun/3117.html" title="开家休闲食品加盟店，怎么提高店铺人气？【一扫光零食家】来教您！" target="_blank">开家休闲食品加盟店，怎么提高店铺人气？【一扫光零食家】来教您！</a></strong>
-                    <p>休闲食品加盟市场在不断发展和扩大的同时，也激发了更多投资者加入到零食加盟行业。那么，对于开家 休闲食品加...<a href="/lirun/3117.html" title="开家休闲食品加盟店，怎么提高店铺人气？【一扫光零食家】来教您！" target="_blank">详情»</a></p>
+                <dt><a href="/lirun/3117.html"><img src="/uploads/allimg/190104/1-1Z10415305Q56-lp.jpg" alt="开家休闲食品加盟店，怎么提高店铺人气？【不二茶铺零食家】来教您！" title="开家休闲食品加盟店，怎么提高店铺人气？【不二茶铺零食家】来教您！" width="70px" height="70px"></a></dt>
+                <dd> <strong><a href="/lirun/3117.html" title="开家休闲食品加盟店，怎么提高店铺人气？【不二茶铺零食家】来教您！" target="_blank">开家休闲食品加盟店，怎么提高店铺人气？【不二茶铺零食家】来教您！</a></strong>
+                    <p>休闲食品加盟市场在不断发展和扩大的同时，也激发了更多投资者加入到零食加盟行业。那么，对于开家 休闲食品加...<a href="/lirun/3117.html" title="开家休闲食品加盟店，怎么提高店铺人气？【不二茶铺零食家】来教您！" target="_blank">详情»</a></p>
                 </dd>
 
             </dl>
             <ul>
-                <li><em>2019-01-02</em><a href="/lirun/3113.html" title="开家零食店怎么样？一扫光休闲食品加盟商的经验之谈" target="_blank">开家零食店怎么样？一扫光休闲食品加盟商的经验之谈</a></li>
-                <li><em>2018-12-28</em><a href="/lirun/3109.html" title="不了解休闲食品加盟行业？一扫光零食家告诉你，开店前需做哪些准备？" target="_blank">不了解休闲食品加盟行业？一扫光零食家告诉你，开店前需做哪些准备？</a></li>
+                <li><em>2019-01-02</em><a href="/lirun/3113.html" title="开家零食店怎么样？不二茶铺休闲食品加盟商的经验之谈" target="_blank">开家零食店怎么样？不二茶铺休闲食品加盟商的经验之谈</a></li>
+                <li><em>2018-12-28</em><a href="/lirun/3109.html" title="不了解休闲食品加盟行业？不二茶铺零食家告诉你，开店前需做哪些准备？" target="_blank">不了解休闲食品加盟行业？不二茶铺零食家告诉你，开店前需做哪些准备？</a></li>
                 <li><em>2018-12-26</em><a href="/lirun/3105.html" title="元旦、春节、情人节…休闲食品加盟店怎么做好节假日的宣传？" target="_blank">元旦、春节、情人节…休闲食品加盟店怎么做好节假日的宣传？</a></li>
-                <li><em>2018-12-24</em><a href="/lirun/3100.html" title="一扫光零食家：开家休闲食品加盟店，有风险吗？" target="_blank">一扫光零食家：开家休闲食品加盟店，有风险吗？</a></li>
-                <li><em>2018-12-20</em><a href="/lirun/3097.html" title="一扫光休闲食品加盟，下岗了也可以重头再来" target="_blank">一扫光休闲食品加盟，下岗了也可以重头再来</a></li>
+                <li><em>2018-12-24</em><a href="/lirun/3100.html" title="不二茶铺零食家：开家休闲食品加盟店，有风险吗？" target="_blank">不二茶铺零食家：开家休闲食品加盟店，有风险吗？</a></li>
+                <li><em>2018-12-20</em><a href="/lirun/3097.html" title="不二茶铺休闲食品加盟，下岗了也可以重头再来" target="_blank">不二茶铺休闲食品加盟，下岗了也可以重头再来</a></li>
 
             </ul>
         </div>
@@ -372,24 +396,24 @@
         <div class="in_news1 in_news left">
             <h2 class="title"><strong><a href="#" target="_blank">成本费用</a></strong><a href="/chengben/" class="more" target="_blank">更多+</a></h2>
             <dl>
-                <dt><a href="/chengben/3115.html"><img src="/uploads/allimg/190103/1-1Z103164335D8-lp.jpg" alt="一扫光休闲食品加盟，招商加盟火热进行中" title="一扫光休闲食品加盟，招商加盟火热进行中" width="70px" height="70px"></a></dt>
-                <dd> <strong><a href="/chengben/3115.html" title="一扫光休闲食品加盟，招商加盟火热进行中" target="_blank">一扫光休闲食品加盟，招商加盟火热进行中</a></strong>
-                    <p>【一扫光零食家】国内正规的 休闲食品加盟 10大品牌，总部位于大都市上海。【一扫光零食家】从品牌创立至今，致...<a href="/chengben/3115.html" title="一扫光休闲食品加盟，招商加盟火热进行中" target="_blank">详情»</a></p>
+                <dt><a href="/chengben/3115.html"><img src="/uploads/allimg/190103/1-1Z103164335D8-lp.jpg" alt="不二茶铺休闲食品加盟，招商加盟火热进行中" title="不二茶铺休闲食品加盟，招商加盟火热进行中" width="70px" height="70px"></a></dt>
+                <dd> <strong><a href="/chengben/3115.html" title="不二茶铺休闲食品加盟，招商加盟火热进行中" target="_blank">不二茶铺休闲食品加盟，招商加盟火热进行中</a></strong>
+                    <p>【不二茶铺零食家】国内正规的 休闲食品加盟 10大品牌，总部位于大都市上海。【不二茶铺零食家】从品牌创立至今，致...<a href="/chengben/3115.html" title="不二茶铺休闲食品加盟，招商加盟火热进行中" target="_blank">详情»</a></p>
                 </dd>
 
             </dl>
             <ul>
-                <li><em>2018-12-29</em><a href="/chengben/3111.html" title="一扫光休闲食品加盟，创业改变命运" target="_blank">一扫光休闲食品加盟，创业改变命运</a></li>
-                <li><em>2018-12-27</em><a href="/chengben/3107.html" title="新手开店，休闲食品加盟店选址要注意！一扫光零食家为您择优选址" target="_blank">新手开店，休闲食品加盟店选址要注意！一扫光零食家为您择优选址</a></li>
-                <li><em>2018-12-25</em><a href="/chengben/3102.html" title="一扫光休闲食品加盟店的盈利优势有哪些？" target="_blank">一扫光休闲食品加盟店的盈利优势有哪些？</a></li>
-                <li><em>2018-12-21</em><a href="/chengben/3099.html" title="一扫光零食店加盟商，身兼数职的他们怎么经营好零食店的？" target="_blank">一扫光零食店加盟商，身兼数职的他们怎么经营好零食店的？</a></li>
-                <li><em>2018-12-19</em><a href="/chengben/3095.html" title="开休闲食品加盟店，认准【一扫光零食家】开店成功率高" target="_blank">开休闲食品加盟店，认准【一扫光零食家】开店成功率高</a></li>
+                <li><em>2018-12-29</em><a href="/chengben/3111.html" title="不二茶铺休闲食品加盟，创业改变命运" target="_blank">不二茶铺休闲食品加盟，创业改变命运</a></li>
+                <li><em>2018-12-27</em><a href="/chengben/3107.html" title="新手开店，休闲食品加盟店选址要注意！不二茶铺零食家为您择优选址" target="_blank">新手开店，休闲食品加盟店选址要注意！不二茶铺零食家为您择优选址</a></li>
+                <li><em>2018-12-25</em><a href="/chengben/3102.html" title="不二茶铺休闲食品加盟店的盈利优势有哪些？" target="_blank">不二茶铺休闲食品加盟店的盈利优势有哪些？</a></li>
+                <li><em>2018-12-21</em><a href="/chengben/3099.html" title="不二茶铺零食店加盟商，身兼数职的他们怎么经营好零食店的？" target="_blank">不二茶铺零食店加盟商，身兼数职的他们怎么经营好零食店的？</a></li>
+                <li><em>2018-12-19</em><a href="/chengben/3095.html" title="开休闲食品加盟店，认准【不二茶铺零食家】开店成功率高" target="_blank">开休闲食品加盟店，认准【不二茶铺零食家】开店成功率高</a></li>
 
             </ul>
         </div>
 
         <!--开店问答-->
-        <!--一扫光企业形象宣传片2-->
+        <!--不二茶铺企业形象宣传片2-->
         <div class="main_news fl">
             <h2 class="title"><strong><a href="/qiyenews/" target="_blank">加盟指南</a></strong><a href="/qiyenews/" class="more" target="_blank">更多+</a></h2>
             <div class="synos">
@@ -410,7 +434,8 @@
         </div>
     </div>
 
-    <!--强势品牌-->
+    {{--
+        <!--强势品牌-->
     <div class="box4 m25">
         <div class="common_hd">
             <div class="tit"><a href="/zhinan/yxys/"><img src="/frontend/images/jmfw.png" alt="加盟服务"></a></div>
@@ -419,15 +444,18 @@
         </div>
         <div class="jmfw">
             <dl>
-                <dt>一扫光360°全方位帮扶，真正的<em>0经验</em>无忧开店</dt>
+                <dt>不二茶铺360°全方位帮扶，真正的<em>0经验</em>无忧开店</dt>
                 <dd><a href="/zhinan/yxys/" title="加盟服务"><img src="/frontend/images/jmfw1.jpg" alt="加盟服务"></a></dd>
                 <dd><a href="/zhinan/yxys/" title="加盟服务"><img src="/frontend/images/jmfw2.jpg" alt="加盟服务"></a></dd>
                 <dd><a href="/zhinan/yxys/" title="加盟服务"><img src="/frontend/images/jmfw3.jpg" alt="加盟服务"></a></dd>
                 <dd><a href="/zhinan/yxys/" title="加盟服务"><img src="/frontend/images/jmfw3.jpg" alt="加盟服务"></a></dd>
             </dl>
         </div>
-        <div class="jmfw-zx"><a href="javascript:void(0)" onclick="online()"><img src="/frontend/images/jmfw.jpg" alt="一扫光财富项目一次投入 多倍利润 咨询加盟详情"></a></div>
+        <div class="jmfw-zx"><a href="javascript:void(0)" onclick="online()"><img src="/frontend/images/jmfw.jpg" alt="不二茶铺财富项目一次投入 多倍利润 咨询加盟详情"></a></div>
     </div>
+
+
+    --}}
 
     <!--强势品牌-->
     <div class="box4 m25">
@@ -439,28 +467,28 @@
         <div class="jmal">
             <dl>
                 <dd>
-                    <div class="tabbox dingwei"> <a href="/fengcai/367.html" ><img src="/frontend/images/1-1P619154344528.png" alt="零食加盟店投资一扫光实现财富自由">
-                            <div class="tabtext">零食加盟店投资一扫光实现财富自由</div>
+                    <div class="tabbox dingwei"> <a href="/fengcai/367.html" ><img src="/frontend/images/1-1P619154344528.png" alt="零食加盟店投资不二茶铺实现财富自由">
+                            <div class="tabtext">零食加盟店投资不二茶铺实现财富自由</div>
                         </a></div>
                 </dd>
                 <dd>
-                    <div class="tabbox dingwei"> <a href="/fengcai/311.html" ><img src="/frontend/images/1-1P619150H0U7.jpg" alt="办公文员开一扫光零食店兼职成主业">
-                            <div class="tabtext">办公文员开一扫光零食店兼职成主业</div>
+                    <div class="tabbox dingwei"> <a href="/fengcai/311.html" ><img src="/frontend/images/1-1P619150H0U7.jpg" alt="办公文员开不二茶铺零食店兼职成主业">
+                            <div class="tabtext">办公文员开不二茶铺零食店兼职成主业</div>
                         </a></div>
                 </dd>
                 <dd>
-                    <div class="tabbox dingwei"> <a href="/fengcai/344.html" ><img src="/frontend/images/1-1P619150353U0.jpg" alt="一扫光零食店加盟铸造财富人生">
-                            <div class="tabtext">一扫光零食店加盟铸造财富人生</div>
+                    <div class="tabbox dingwei"> <a href="/fengcai/344.html" ><img src="/frontend/images/1-1P619150353U0.jpg" alt="不二茶铺零食店加盟铸造财富人生">
+                            <div class="tabtext">不二茶铺零食店加盟铸造财富人生</div>
                         </a></div>
                 </dd>
                 <dd>
-                    <div class="tabbox dingwei"> <a href="/fengcai/385.html" ><img src="/frontend/images/1-1P619150159423.GIF" alt="一扫光休闲食品加盟带来成功和财富">
-                            <div class="tabtext">一扫光休闲食品加盟带来成功和财富</div>
+                    <div class="tabbox dingwei"> <a href="/fengcai/385.html" ><img src="/frontend/images/1-1P619150159423.GIF" alt="不二茶铺休闲食品加盟带来成功和财富">
+                            <div class="tabtext">不二茶铺休闲食品加盟带来成功和财富</div>
                         </a></div>
                 </dd>
                 <dd>
-                    <div class="tabbox dingwei"> <a href="/fengcai/368.html" ><img src="/frontend/images/1-1P619145PS30.jpg" alt="投资一扫光零食加盟店成功就此起航">
-                            <div class="tabtext">投资一扫光零食加盟店成功就此起航</div>
+                    <div class="tabbox dingwei"> <a href="/fengcai/368.html" ><img src="/frontend/images/1-1P619145PS30.jpg" alt="投资不二茶铺零食加盟店成功就此起航">
+                            <div class="tabtext">投资不二茶铺零食加盟店成功就此起航</div>
                         </a></div>
                 </dd>
 
@@ -471,8 +499,8 @@
                         </a></div>
                 </dd>
                 <dd>
-                    <div class="tabbox dingwei"> <a href="/ganyan/346.html" ><img src="/frontend/images/1-1P619152SI04.png" alt="一扫光零食店加盟月入十万不是梦">
-                            <div class="tabtext">一扫光零食店加盟月入十万不是梦</div>
+                    <div class="tabbox dingwei"> <a href="/ganyan/346.html" ><img src="/frontend/images/1-1P619152SI04.png" alt="不二茶铺零食店加盟月入十万不是梦">
+                            <div class="tabtext">不二茶铺零食店加盟月入十万不是梦</div>
                         </a></div>
                 </dd>
                 <dd>
@@ -486,16 +514,16 @@
                         </a></div>
                 </dd>
                 <dd>
-                    <div class="tabbox dingwei"> <a href="/ganyan/361.html" ><img src="/frontend/images/1-1P619151013525.GIF" alt="零食店加盟一扫光改变我的一生">
-                            <div class="tabtext">零食店加盟一扫光改变我的一生</div>
+                    <div class="tabbox dingwei"> <a href="/ganyan/361.html" ><img src="/frontend/images/1-1P619151013525.GIF" alt="零食店加盟不二茶铺改变我的一生">
+                            <div class="tabtext">零食店加盟不二茶铺改变我的一生</div>
                         </a></div>
                 </dd>  <dd>
-                    <div class="tabbox dingwei"> <a href="/ganyan/361.html" ><img src="/frontend/images/1-1P619151013525.GIF" alt="零食店加盟一扫光改变我的一生">
-                            <div class="tabtext">零食店加盟一扫光改变我的一生</div>
+                    <div class="tabbox dingwei"> <a href="/ganyan/361.html" ><img src="/frontend/images/1-1P619151013526.GIF" alt="零食店加盟不二茶铺改变我的一生">
+                            <div class="tabtext">零食店加盟不二茶铺改变我的一生</div>
                         </a></div>
                 </dd>  <dd>
-                    <div class="tabbox dingwei"> <a href="/ganyan/361.html" ><img src="/frontend/images/1-1P619151013525.GIF" alt="零食店加盟一扫光改变我的一生">
-                            <div class="tabtext">零食店加盟一扫光改变我的一生</div>
+                    <div class="tabbox dingwei"> <a href="/ganyan/361.html" ><img src="/frontend/images/1-1P619151013527.GIF" alt="零食店加盟不二茶铺改变我的一生">
+                            <div class="tabtext">零食店加盟不二茶铺改变我的一生</div>
                         </a></div>
                 </dd>
 
@@ -510,4 +538,36 @@
             </script>
         </div>
     </div>
+    <div class="conta">
+        <div class="clearfix">
+            <div class="content f-l">
+                <div class="fine-left-top clearfix">
+                    <h4 class="f-l">友情链接</h4>
+                </div>
+                <div class="fine-left-bottom clearfix">
+                    <ul class="yqlj_item">
+                        <li><a href="https://www.5188.com/" target="_blank"><i></i><b>加盟网</b></a></li>
+                        <li><a href="http://www.blmcy.com/" target="_blank"><i></i><b>创业找项目</b></a></li>
+                        <li><a href="http://cy.78.cn/" target="_blank"><i></i><b>加盟网</b></a></li>
+                        <li><a href="http://www.58lingshi.com/" target="_blank"><i></i><b>58零食网</b></a></li>
+                        <li><a href="http://www.sj875.com/" target="_blank"><i></i><b>创业网</b></a></li>
+                        <li><a href="http://news.91cy.cn/" target="_blank"><i></i><b>财富故事会</b></a></li>
+                        <li><a href="http://zs.21food.cn/" target="_blank"><i></i><b>食品招商网</b></a></li>
+                        <li><a href="http://www.8887.tv" target="_blank"><i></i><b>餐饮加盟网</b></a></li>
+                        <li><a href="https://www.51xxsp.com" target="_blank"><i></i><b>51加盟网</b></a></li>
+                        <li><a href="http://liansuo.qudao.com" target="_blank"><i></i><b>加盟连锁网</b></a></li>
+                        <li><a href="http://www.08956.com" target="_blank"><i></i><b>创业加盟</b></a></li>
+                        <li><a href="http://news.89178.com/" target="_blank"><i></i><b>加盟店排行榜</b></a></li>
+                        <li><a href="https://www.51jiameng.com/" target="_blank"><i></i><b>招商加盟网</b></a></li>
+                        <li><a href="http://www.xiuxianshipin.com/" target="_blank"><i></i><b>火爆餐饮网</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+@stop
+@section('footerlibs')
+    <script src="/frontend/js/video.min.js"></script>
 @stop
