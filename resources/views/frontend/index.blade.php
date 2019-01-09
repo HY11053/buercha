@@ -96,7 +96,7 @@
             <div class="shipin">
                <video id="video" src="http://www.becpls.com/20170602.mp4" controls width="285" height="190"></video>
             </div>
-            <p class="in_news1-bt">一扫光休闲食品加盟携手央视亮相《中国合伙人》</p>
+            <p class="in_news1-bt">不二茶加盟携手央视亮相《中国合伙人》</p>
         </div>
 
         <!--最新活动-->
@@ -192,27 +192,35 @@
                         <li><img src="/frontend/images/rcqg1.jpg" alt="1"></li>
                         <li><img src="/frontend/images/rcqg2.jpg" alt=""></li>
                         <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
                     </ul>
                 </div>
                 <div class="index_jm_list">
                     <ul>
-                        <li><img src="/frontend/images/ccjd1.jpg" alt="2"></li>
-                        <li><img src="/frontend/images/ccjd2.jpg" alt=""></li>
-                        <li><img src="/frontend/images/ccjd3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg1.jpg" alt="1"></li>
+                        <li><img src="/frontend/images/rcqg2.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
                     </ul>
                 </div>
                 <div class="index_jm_list">
                     <ul>
-                        <li><img src="/frontend/images/yjss1.jpg" alt="3"></li>
-                        <li><img src="/frontend/images/yjss2.jpg" alt=""></li>
-                        <li><img src="/frontend/images/yjss3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg1.jpg" alt="1"></li>
+                        <li><img src="/frontend/images/rcqg2.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
                     </ul>
                 </div>
                 <div class="index_jm_list">
                     <ul>
-                        <li><img src="/frontend/images/yjss1.jpg" alt="3"></li>
-                        <li><img src="/frontend/images/yjss2.jpg" alt=""></li>
-                        <li><img src="/frontend/images/yjss3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg1.jpg" alt="1"></li>
+                        <li><img src="/frontend/images/rcqg2.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
+                        <li><img src="/frontend/images/rcqg3.jpg" alt=""></li>
                     </ul>
                 </div>
             </div>
