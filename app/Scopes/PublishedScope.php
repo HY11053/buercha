@@ -19,6 +19,6 @@ class PublishedScope implements Scope
      */
     public function apply(Builder $builder, Model $model)
     {
-        return $builder->where('published_at', '<', Carbon::now())->where('ismake',1);
+        //return $builder->where('published_at', '<', Carbon::now())->where('ismake',1);
     }
 }
