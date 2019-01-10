@@ -32,48 +32,26 @@ class ListNewsController extends Controller
             $sontypes=Arctype::where('reid',$typeid)->get();
         }
         $productions=Archive::whereIn('typeid',Arctype::where('reid',8)->pluck('id'))->take(6)->get();
-        $mendianlists =Archive::where('typeid',34)->take(6)->get();
+        $newslists =Archive::take(10)->latest()->get();
+        $hotlists =Archive::skip(10)->take(10)->latest()->get();
         $cid=$path;
         //针对不同栏目类型返回不同类型页面
         //普通文档列表
         if(Arctype::where('id',$typeid)->value('mid')==0)
         {
-            $pagelists=Archive::where('typeid',$typeid)->orderBy('published_at','desc')->paginate($perPage = 13, $columns = ['*'], $pageName = 'page', $page);
+            $articlenavs=Arctype::where('mid',0)->take(6)->get();
+            $pagelists=Archive::where('typeid',$typeid)->orderBy('published_at','desc')->paginate($perPage = 10, $columns = ['*'], $pageName = 'page', $page);
             $pagelists= Paginator::transfer(
                 $cid,//传入分类id,
                 $pagelists//传入原始分页器
             );
-            return view('frontend.list_article',compact('thistypeinfo','pagelists','sontypes','productions','mendianlists'));
+            return view('frontend.list_article',compact('thistypeinfo','pagelists','sontypes','productions','newslists','articlenavs'));
         }elseif (Arctype::where('id',$typeid)->value('mid')==1)
         {
-            return view('frontend.index_lists',compact('thistypeinfo','pagelists','productions','mendianlists','sontypes'));
+            return view('frontend.index_lists',compact('thistypeinfo','pagelists','productions','newslists','sontypes','hotlists'));
         }
     }
 
-    /**设备列表页
-     * @param Request $request
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
-
-    public function shebeiList(Request $request,$page=0)
-    {
-        $typeid=Arctype::where('real_path',preg_replace('/\/page\/[0-9]+/','',$request->path()))->value('id')?:abort(404);
-        $thistypeinfo=Arctype::where('id',$typeid)->first();
-        $cid=$request->path();
-        if ($thistypeinfo->reid)
-        {
-            $pagelists=Archive::where('typeid',$typeid)->orderBy('published_at','desc')->paginate($perPage = 12, $columns = ['*'], $pageName = 'page', $page);
-        }else{
-            $typeids=Arctype::where('reid',$thistypeinfo->id)->pluck('id');
-            $pagelists=Archive::whereIn('typeid',$typeids)->orderBy('id','desc')->paginate($perPage = 12, $columns = ['*'], $pageName = 'page', $page);
-        }
-        $pagelists= Paginator::transfer(
-            $cid,//传入分类id,
-            $pagelists//传入原始分页器
-        );
-        return view('frontend.shebei_list',compact('thistypeinfo','pagelists','sontypes','productions','mendianlists'));
-
-    }
 
     public function map()
     {

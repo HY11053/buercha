@@ -169,27 +169,11 @@
         </div>
     </div>
 
-    <!--加盟费-->
-    <div class="box4 m25">
-        <div class="common_hd">
-            <div class="tit"><img src="/frontend/images/jmf.png" alt="加盟费"></div>
-            <!--<div class="info">超强实力认证  引领行业高度</div>-->
-            <div class="more"><a href="javascript:void(0)" onclick="online()"><img src="/frontend/images/index_ask_btn.gif" alt="立即在线咨询"></a></div>
-        </div>
-        <div class="programme">
-            <dl>
-                <dt><a href="#"><img src="/frontend/images/fanan3.jpg" alt="店面效果图"></a></dt>
-                <dd> <strong><a href="#">不二茶铺全球统一门店形象</a></strong><span>旅游风STYLE  国际大师打造</span> <span><i>整体投资：</i><em>422800元起</em> (北上广深除外)</span> <span>投资优势：客源大、回报高</span> <span><i>投资热度：</i>
-				<div class="xing4 png">★★★★★</div>
-				</span> <a href="javascript:void(0)" onclick="online()" class="btn1 png" target="_blank">在线咨询</a> <a href="javascript:void(0)" onclick="online()" class="btn2 png" target="_blank">申请加盟</a> </dd>
-            </dl>
-        </div>
-        <div class="programme_img"><a href="#"><img src="/frontend/images/fanan4.jpg" alt="店面效果图"></a></div>
-    </div>
 
     <!--公司实力-->
 
-    <div class="box4 m25"> <a href="/guanyuwomen/gsjj/">
+    <div class="box4 m25">
+        <a href="/guanyuwomen/gsjj/">
             <div class="common_hd">
                 <div class="tit"><img src="/frontend/images/gssl.png" alt="不二产品"></div>
                 <div class="info">不二之选 8大茶饮系列</div>
@@ -265,6 +249,23 @@
             });
         </script>
     </div>
+    <!--加盟费-->
+    <div class="box4 m25">
+        <div class="common_hd">
+            <div class="tit"><img src="/frontend/images/jmf.png" alt="加盟费"></div>
+            <!--<div class="info">超强实力认证  引领行业高度</div>-->
+            <div class="more"><a href="javascript:void(0)" onclick="online()"><img src="/frontend/images/index_ask_btn.gif" alt="立即在线咨询"></a></div>
+        </div>
+        <div class="programme">
+            <dl>
+                <dt><a href="#"><img src="/frontend/images/fanan3.jpg" alt="店面效果图"></a></dt>
+                <dd> <strong><a href="#">不二茶铺全球统一门店形象</a></strong><span>旅游风STYLE  国际大师打造</span> <span><i>整体投资：</i><em>422800元起</em> (北上广深除外)</span> <span>投资优势：客源大、回报高</span> <span><i>投资热度：</i>
+				<div class="xing4 png">★★★★★</div>
+				</span> <a href="javascript:void(0)" onclick="online()" class="btn1 png" target="_blank">在线咨询</a> <a href="javascript:void(0)" onclick="online()" class="btn2 png" target="_blank">申请加盟</a> </dd>
+            </dl>
+        </div>
+        <div class="programme_img"><a href="#"><img src="/frontend/images/fanan4.jpg" alt="店面效果图"></a></div>
+    </div>
 
     <!--公司文化-->
     <div class="box4 m25"> <a href="#">
@@ -328,7 +329,7 @@
             <div class="con5-left-zi">
                 <ul>
                     @foreach($asklists as $index=>$asklist)
-                        <li @if($index<4) class="first_line" @endif><a href="/{{$asklist->arctype->real_path}}/{{$asklist->id}}.html" style="font-size: 14px;">{{$asklist->title}}</a></li>
+                        <li @if($index<4) class="first_line" @endif><a href="/{{$asklist->arctype->real_path}}/{{$asklist->id}}.html" style="font-size: 12px;">{{$asklist->title}}</a></li>
                     @endforeach
                 </ul>
             </div>

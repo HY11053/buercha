@@ -114,7 +114,7 @@ body{font-family:"微软雅黑"}
 /*************************列表侧边end**************************/
 
 .title{ height:46px; border-bottom:1px solid #D6D6D6; position:relative;}
-.title strong{padding-left:10px; height:45px; line-height:45px; border-bottom:2px solid #FCBB1D; display:block; position:absolute; left:0; top:0; font-size:18px; font-family:"微软雅黑"; color:#333;}
+.title strong{padding-left:10px; height:35px; line-height:35px;  background: url("../images/bt.jpg") no-repeat; width: 134px; border-bottom:2px solid #FCBB1D; display:block; position:absolute; left:0; top:10px; font-size:18px; font-family:"微软雅黑"; color:#fff;}
 .title a.more{ padding-top:3px;  float:right; margin-top:17px; font-size:12px; font-weight:normal; color:#666;}
 .title a:hover.more{ color:#F00;}
 
