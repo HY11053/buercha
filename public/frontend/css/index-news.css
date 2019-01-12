@@ -138,7 +138,7 @@ body{font-family:"微软雅黑"}
 .programme dl dd .btn2{ background:url(../images/in_jd_pic.png) no-repeat -74px 0; width:52px; float:left; padding-top:48px; height:24px; line-height:24px;display:block;color:#4e4e4e; text-align:center;}
 .programme_img{ float:right; width:320px; height:240px; padding-top: 20px; padding-right:17px;}
 /*品牌团队*/
-.index_jm{ width:1200px; height:auto; overflow:hidden;background:url(../images/ic.jpg) bottom left no-repeat; padding-bottom:78px;}
+.index_jm{ width:1200px; height:auto; overflow:hidden;background:url(../images/ic.jpg) bottom left no-repeat; padding-bottom:18px;}
 .index_jm_tab ul{ width:1185px; height:auto; overflow:hidden; padding:15px 0 0 5px;}
 .index_jm_tab ul li{ height:38px; line-height:38px; float:left; text-align:center; background:#efefee; font-size:16px; margin:0 1px 0 10px; width:225px;vertical-align:bottom; text-align:center;}
 .index_jm_tab .on{background:#ffa40c;}
