@@ -13,12 +13,12 @@
 Auth::routes();
 Route::get('/home', 'HomeController@index');
 //前台界面
-Route::group(['domain' => 'm.ganxi168.com'], function () {
+Route::group(['domain' => 'm.buercha.com'], function () {
     Route::get('/','Mobile\IndexController@Index');
-    Route::get('{path}','Mobile\ListNewsController@listNews')->where('path','[a-zA-Z0-9\/]+')->name('newslist');
+    Route::get('map','Mobile\ListNewsController@map')->where('path','[a-zA-Z\/]+')->name('newslist');
+    Route::get('{path}','Mobile\ListNewsController@listNews')->where('path','[a-zA-Z0-9]+')->name('newslist');
     Route::get('{path}/{id}.html','Mobile\ArticleController@GetArticle')->where(['id'=>'[0-9]+','path'=>'[a-zA-Z\/]+'])->name('articles');
     Route::get('{path}/page/{page}','Mobile\ListNewsController@listNews')->where('path', '[a-zA-Z/]+')->name('newspagelist');
-    Route::post('/phonecomplate/','Mobile\PhoneController@phoneComplate');
 });
 Route::get('/','Frontend\IndexController@Index');
 Route::get('map','Frontend\ListNewsController@map')->where('path','[a-zA-Z\/]+')->name('newslist');

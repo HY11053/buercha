@@ -14,13 +14,14 @@ class IndexController extends Controller
 {
     function Index()
     {
-        //项目抢先看
-        $shebeilists=Archive::whereIn('typeid',Arctype::where('reid',8)->pluck('id'))->take(6)->orderBy('id','desc')->get();
-        $newslists=Archive::where('typeid',6)->take(5)->orderBy('id','desc')->get();
-        $baikelists=Archive::where('typeid',18)->take(5)->orderBy('id','desc')->get();
-        $askists=Archive::where('typeid',37)->take(5)->orderBy('id','desc')->get();
-        $latestlists=Archive::take(10)->orderBy('id','desc')->get();
-        return view('mobile.index',compact('shebeilists','newslists','baikelists','askists','latestlists'));
+        $newlists=Archive::where('typeid',8)->take(6)->latest()->get();
+        $zhinanlists=Archive::where('typeid',7)->take(7)->latest()->get();
+        $asklists=Archive::where('typeid',14)->take(20)->latest()->get();
+        $jingyinglists=Archive::where('typeid',15)->take(8)->latest()->get();
+        $lirunlists=Archive::where('typeid',11)->take(6)->latest()->get();
+        $feiyonglists=Archive::where('typeid',9)->take(6)->latest()->get();
+        $chengbenlists=Archive::where('typeid',10)->take(7)->latest()->get();
+        return view('mobile.index',compact('newlists','zhinanlists','asklists','jingyinglists','lirunlists','feiyonglists','chengbenlists'));
     }
 
 }

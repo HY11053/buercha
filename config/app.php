@@ -132,10 +132,10 @@ return [
     | Site home page key words and description and record information
     | and other related settings
     */
-    'webname'=>'干洗店|干洗店加盟|干洗店加盟连锁-美国卡露丝洗衣国际集团',
-    'indexname'=>'美国卡露丝洗衣国际集团',
-    'keywords'=>'干洗店,干洗店加盟,干洗店加盟连锁',
-    'description'=>'卡露丝国际健康干洗,干洗店加盟首选品牌,全国干洗店加盟连锁机构,干洗机厂家直销, 提供全套洗衣房设备,',
+    'webname'=>'不二の茶-不二茶铺加盟-台湾不二茶铺加盟-奶茶店加盟',
+    'indexname'=>'台湾不二茶铺,不二の茶,不二茶铺加盟',
+    'keywords'=>'台湾不二茶铺,不二の茶,不二茶铺加盟',
+    'description'=>'不二茶铺隶属于上海莎福瑞餐饮管理有限公司,是一家以经营港式甜品为主的餐饮机构，旨在将香飘两广的甜品文化传递给国内市场。自 2006 年创立以来，目前已经在全国拥有超过 140 家分店，成为中国最具影响力的甜品休闲品牌之一。',
     //'api'=>'http://data.zz.baidu.com/urls?site=www.czga.cn&token=QeSFIvl5RWRgU3BT',
     //'mip_api'=>'http://data.zz.baidu.com/urls?site=mip.czga.cn&token=QeSFIvl5RWRgU3BT&type=mip',
     //'mip_history'=>'http://data.zz.baidu.com/urls?site=mip.czga.cn&token=QeSFIvl5RWRgU3BT&type=mip',

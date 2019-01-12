@@ -34,18 +34,18 @@
                 <div class="ullb3 bk">
                     <h2 class="bt6"><span>不二产品</span></h2>
                     <ul class="clearfix" style="margin-top: 10px;">
-                        <li><span><a href="/plus/view.php?aid=9963"><img src="/frontend/images/1-1P32Q63Q2135-lp.jpg" width="126" height="96"></a></span>
-                            <strong><a href="/plus/view.php?aid=9963">戴永红炒货休闲食品加盟需要多少钱?总投资至少需要8万元</a></strong></li>
-                        <li><span><a href="/ppxw/9947.html"><img src="/frontend/images/1-1P3191F04D36-lp.jpg" width="126" height="96"></a></span>
-                            <strong><a href="/ppxw/9947.html">华味多休闲食品生意需要投资多少?总投资费用13.9万元</a></strong></li>
-                        <li><span><a href="/ppxw/9937.html"><img src="/frontend/images/1-1P313130U1529-lp.jpg" width="126" height="96"></a></span>
-                            <strong><a href="/ppxw/9937.html">公主驾到零食加盟费是多少?只需30000元</a></strong></li>
-                        <li><span><a href="/ppxw/9789.html"><img src="/frontend/images/1-1FFGI414911-lp.jpg" width="126" height="96"></a></span>
-                            <strong><a href="/ppxw/9789.html">加盟非常食客零食有优势吗？加盟优势介绍</a></strong></li>
-                        <li><span><a href="/feiyong/9805.html"><img src="/frontend/images/1-1FFGJ929610-lp.jpg" width="126" height="96"></a></span>
-                            <strong><a href="/feiyong/9805.html">一扫光休闲食品加盟有哪些好处？好处介绍</a></strong></li>
-                        <li><span><a href="/ppxw/9918.html"><img src="/frontend/images/1-1FGGQ451518-lp.jpg" width="126" height="96"></a></span>
-                            <strong><a href="/ppxw/9918.html">选择百草味零食店加盟怎么样？豪宅照样买！</a></strong></li>
+                        <li><span><a href="#"><img src="/frontend/images/pd1.jpg" width="126" height="96"></a></span>
+                            <strong><a href="#">不二の茶爆乐橙子</a></strong></li>
+                        <li><span><a href="#"><img src="/frontend/images/pd2.jpg" width="126" height="96"></a></span>
+                            <strong><a href="#">不二の茶爆乐红西柚</a></strong></li>
+                        <li><span><a href="#"><img src="/frontend/images/pd3.jpg" width="126" height="96"></a></span>
+                            <strong><a href="#">不二の茶爆乐红西柚</a></strong></li>
+                        <li><span><a href="#"><img src="/frontend/images/pd5.jpg" width="126" height="96"></a></span>
+                            <strong><a href="#">不二の茶爆乐红西柚</a></strong></li>
+                        <li><span><a href="#"><img src="/frontend/images/pd6.jpg" width="126" height="96"></a></span>
+                            <strong><a href="#">不二の茶爆乐红西柚</a></strong></li>
+                        <li><span><a href="#"><img src="/frontend/images/pd7.jpg" width="126" height="96"></a></span>
+                            <strong><a href="#">不二の茶爆乐红西柚</a></strong></li>
 
                     </ul>
                 </div>

@@ -1,121 +1,121 @@
 @extends('mobile.mobile')
-@section('headlibs')
-<title>{{config('app.webname')}}</title>
-<meta name="description" content="{{config('app.description')}}">
-<meta name="keywords" content="{{config('app.keywords')}}">
-<meta name="author" content="卡露丝国际洗衣">
-<link rel="canonical" href="{{config('app.url')}}" >
-<meta name="baidu-site-verification" content="hHwAKFLfhj" />
-<meta name="sogou_site_verification" content="hbZyekUb3t"/>
-@stop
+@section('title'){{ config('app.webname', '不二茶铺加盟') }}@stop
+@section('keywords'){{ config('app.keywords', '不二茶铺加盟') }}@stop
+@section('description'){{ config('app.description', '不二茶铺加盟') }}@stop
 @section('main_content')
-    <p class="bg-primary">  <em class="col-xs-10"><span class="glyphicon glyphicon-comment"></span><a  href="javascript:void(0);" onclick="online();return false;">点击快速留言</a></em></p>
-    <div class="container">
-        <div class="row">
-            <ul class="clearfix-m col-xs-12">
-                <div class="index_headBtn clear">
-                    <div><a href="/jt/"><img src="/mobile/images/indexIcos/icon1.png"><span>集团介绍 </span></a></div>
-                    <div><a href="/sb/"><img src="/mobile/images/indexIcos/icon2.png"><span>洗护设备 </span></a></div>
-                    <div><a href="/join/"><img src="/mobile/images/indexIcos/icon3.png"><span>加盟服务 </span></a></div>
-                    <div><a href="/xm/"><img src="/mobile/images/indexIcos/icon4.png"><span>加盟项目 </span></a></div>
-                    <div><a href="/kd/"><img src="/mobile/images/indexIcos/icon5.png"><span>投资开店 </span></a></div>
-                    <div><a href="/news/"><img src="/mobile/images/indexIcos/icon6.png"><span>新闻资讯 </span></a></div>
-                    <div><a href="/join/bk/"><img src="/mobile/images/indexIcos/icon7.png"><span>洗涤百科 </span></a></div>
-                    <div><a href="/kd/yw/"><img src="/mobile/images/indexIcos/icon8.png"><span>开店疑问 </span></a></div>
-                </div>
-            </ul>
-        </div>
+    <p class="bg-primary"><span class="glyphicon glyphicon-phone-alt "></span>不二の茶</p>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active"><a href="javascript:void(0)" onclick="openZoosUrl();return false;"><img class="center-block" src="/mobile/images/1.jpg" alt="不二の茶"></a> </div>
+        <div class="item"><a href="javascript:void(0)" onclick="openZoosUrl();return false;"><img class="center-block" src="/mobile/images/2.jpg" alt="不二の茶"></a></div>
+        <div class="item"><a href="javascript:void(0)" onclick="openZoosUrl();return false;"><img class="center-block" src="/mobile/images/3.jpg" alt="不二の茶"></a></div>
     </div>
-    <!--店面-->
-    <div class="ys">
-        <div class="title"><h3>卡露丝国际洗衣干洗店加盟投资规模分类</h3></div>
-        <ul>
-            <li> <img src="/mobile/images/ys01.jpg"><h5>三星干洗店</h5><p>三星店方案A型</p>  </li>
-            <li> <img src="/mobile/images/ys01.jpg"><h5>四星干洗店</h5><p>四星店方案B型</p>  </li>
-            <li> <img src="/mobile/images/ys01.jpg"><h5>旗舰店加盟</h5><p>旗舰店方案</p>  </li>
+</div>
+<!--幻灯end-->
+<p class="bg-primary">  <span class="glyphicon glyphicon-comment"> </span><a href="javascript:void(0);" onclick="openZoosUrl();return false;">免费领取资料</a></p>
+<div class="container">
+    <div class="row">
+        <ul class="clearfix-m col-xs-12">
+            <li class="col-xs-3"><a href="/{{\App\AdminModel\Arctype::where('id',1)->value('real_path')}}/"><span class="nav-img"><img class="img-responsive" src="/mobile/images/zl.png"></span><span class="nav-font">{{\App\AdminModel\Arctype::where('id',1)->value('typename')}}</span></a></li>
+            <li class="col-xs-3"><a href="/{{\App\AdminModel\Arctype::where('id',1)->value('real_path')}}/" ><span class="nav-img"><img class="img-responsive" src="/mobile/images/sy.png"></span><span class="nav-font">{{\App\AdminModel\Arctype::where('id',2)->value('typename')}}</span></a></li>
+            <li class="col-xs-3"><a href="/{{\App\AdminModel\Arctype::where('id',9)->value('real_path')}}/"><span class="nav-img"><img class="img-responsive" src="/mobile/images/dt.png"></span><span class="nav-font">{{\App\AdminModel\Arctype::where('id',9)->value('typename')}}</span></a></li>
+            <li class="col-xs-3"><a href="/{{\App\AdminModel\Arctype::where('id',10)->value('real_path')}}/"><span class="nav-img"><img class="img-responsive" src="/mobile/images/lc.png"></span><span class="nav-font">{{\App\AdminModel\Arctype::where('id',10)->value('typename')}}</span></a></li>
+            <li class="col-xs-3"><a href="/{{\App\AdminModel\Arctype::where('id',11)->value('real_path')}}/"><span class="nav-img"><img class="img-responsive" src="/mobile/images/js.png"></span><span class="nav-font">{{\App\AdminModel\Arctype::where('id',11)->value('typename')}}</span></a></li>
+            <li class="col-xs-3"><a href="/{{\App\AdminModel\Arctype::where('id',12)->value('real_path')}}/"><span class="nav-img"><img class="img-responsive" src="/mobile/images/zc.png"></span><span class="nav-font">{{\App\AdminModel\Arctype::where('id',12)->value('typename')}}</span></a></li>
+            <li class="col-xs-3"><a href="/{{\App\AdminModel\Arctype::where('id',13)->value('real_path')}}/"><span class="nav-img"><img class="img-responsive" src="/mobile/images/fa.png"></span><span class="nav-font">{{\App\AdminModel\Arctype::where('id',13)->value('typename')}}</span></a></li>
+            <li class="col-xs-3"><a href="/{{\App\AdminModel\Arctype::where('id',14)->value('real_path')}}/"><span class="nav-img"><img class="img-responsive" src="/mobile/images/lx.png"></span><span class="nav-font">{{\App\AdminModel\Arctype::where('id',14)->value('typename')}}</span></a></li>
+
         </ul>
     </div>
-    <!--店面-->
-    <!--shebei show-->
+    <!--zonghe start-->
 
-    <div class="cp-show">
-        <div class="cp-show-header"><span>干洗设备选购指南</span></div>
-        <ul class="cp-show-list clearfix">
-            @foreach($shebeilists as $shebeilist)
-            <li>
-                <a href="/{{$shebeilist->arctype->real_path}}/{{$shebeilist->id}}.html"><img src="{{$shebeilist->litpic}}"></a>
-                <span class="cp-font">
-            <a href="/{{$shebeilist->arctype->real_path}}/{{$shebeilist->id}}.html">{{$shebeilist->title}}</a>
-          </span>
-            </li>
-            @endforeach
-        </ul>
-    </div>
-    <!--shebei show-->
-
-    <div class="zonghe">
-        <ul class="zonghe-nav clearfix">
-
-            <li>
-                <h3 class="zonghe-nav-moren">新闻资讯</h3>
-                <div class="zonghe-con" style="display: block;">
-                    @foreach($newslists as $newslist)
-                        <div class="zonghe-con-list clearfix">
-                            <a href="/{{$newslist->arctype->real_path}}/{{$newslist->id}}.html"><img src="{{$newslist->litpic}}"></a>
-                            <div class="zonghe-right">
-                                <a href="/{{$newslist->arctype->real_path}}/{{$newslist->id}}.html">{{$newslist->title}}</a>
-                                <span class="zonghe-con-font">{{$newslist->description}}</span>
-                            </div>
-                        </div>
-                    @endforeach
-
-                </div>
-            </li>
-            <li>
-                <h3>洗涤百科</h3>
-                <div class="zonghe-con">
-                    @foreach($baikelists as $baikelist)
-                    <div class="zonghe-con-list clearfix">
-                        <a href="/{{$baikelist->arctype->real_path}}/{{$baikelist->id}}.html"><img src="{{$baikelist->litpic}}"></a>
-                        <div class="zonghe-right">
-                            <a href="/{{$baikelist->arctype->real_path}}/{{$baikelist->id}}.html">{{$baikelist->title}}</a>
-                            <span class="zonghe-con-font">{{$baikelist->description}}</span>
-                        </div>
-                    </div>
-                    @endforeach
-                </div>
-            </li>
-
-            <li>
-                <h3>开店疑问</h3>
-                <div class="zonghe-con">
-                    @foreach($askists as $askist)
-                    <div class="zonghe-con-list clearfix">
-                        <a href="/{{$askist->arctype->real_path}}/{{$askist->id}}.html"><img src="{{$askist->litpic}}"></a>
-                        <div class="zonghe-right">
-                            <a href="/{{$askist->arctype->real_path}}/{{$askist->id}}.html">{{$askist->title}}</a>
-                            <span class="zonghe-con-font">{{$askist->description}}</span>
-                        </div>
-                    </div>
-                    @endforeach
-                </div>
-            </li>
-
-        </ul>
-
-    </div>
-
-    <div class="koubei">
-        <h3>卡露丝国际洗衣干洗店加盟热点资讯</h3>
-        <div class="boxkb" id="boxkb">
-            <div class="bd">
-                <ul>
-                    @foreach($latestlists as $latestlist)
-                    <li><span class="date">{{date('Y-m-d',strtotime($latestlist->created_at))}}</span><a class="txt" href="/{{$latestlist->arctype->real_path}}/{{$latestlist->id}}.html">{{$latestlist->title}}</a></li>
-                    @endforeach
-                </ul>
+    <div class="row brands">
+        <div class="bg-primary">不二の茶品牌介绍</div>
+        <div class="indexabout">
+            <div class="shipin">
+                <video  width="100%" height="190" id="my-player" class="video-js vjs-big-play-centered" playsinline controls preload="auto" poster="/frontend/images/about.png" data-setup='{}'>
+                    <source src="http://www.becpls.com/20170602.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>
-    <!--留言-->
+</div>
+
+<div class="zonghe">
+    <ul class="zonghe-nav clearfix">
+        <li><a class="zonghe-nav-moren">加盟费用</a>
+            <div class="zonghe-con" style="display:block;">
+                @foreach($feiyonglists as $feiyonglist)
+                <div class="zonghe-con-list clearfix">
+                    <a href="/{{$feiyonglist->arctype->real_path}}/{{$feiyonglist->id}}.html"><img src="{{$feiyonglist->litpic}}"/></a>
+                    <div class="zonghe-right">
+                        <a href="/{{$feiyonglist->arctype->real_path}}/{{$feiyonglist->id}}.html">{{$feiyonglist->title}}</a>
+                        <span class="zonghe-con-font">
+                      {{str_limit($feiyonglist->description,96,'...')}}
+                    </span>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </li>
+
+        <li><a>投资分析</a>
+            <div class="zonghe-con">
+                @foreach($jingyinglists as $jingyinglist)
+                    <div class="zonghe-con-list clearfix">
+                        <a href="/{{$jingyinglist->arctype->real_path}}/{{$jingyinglist->id}}.html"><img src="{{$jingyinglist->litpic}}"/></a>
+                        <div class="zonghe-right">
+                            <a href="/{{$jingyinglist->arctype->real_path}}/{{$jingyinglist->id}}.html">{{$jingyinglist->title}}</a>
+                            <span class="zonghe-con-font">
+                            {{str_limit($jingyinglist->description,96,'...')}}
+                    </span>
+                        </div>
+                    </div>
+                @endforeach
+
+            </div>
+        </li>
+        <li><a>行业动态</a>
+            <div class="zonghe-con">
+                @foreach($newlists as $newlist)
+                    <div class="zonghe-con-list clearfix">
+                        <a href="/{{$newlist->arctype->real_path}}/{{$newlist->id}}.html"><img src="{{$newlist->litpic}}"/></a>
+                        <div class="zonghe-right">
+                            <a href="/{{$newlist->arctype->real_path}}/{{$newlist->id}}.html">{{$newlist->title}}</a>
+                            <span class="zonghe-con-font">
+                            {{str_limit($newlist->description,96,'...')}}
+                    </span>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </li>
+    </ul>
+
+</div>
+
+<!--产品展示 start-->
+<div class="cp-show">
+    <div class="cp-show-header"><span>新产品推荐</span></div>
+    <ul class="cp-show-list clearfix">
+        @foreach($lirunlists as $lirunlist)
+        <li>
+            <a href="/{{$lirunlist->arctype->real_path}}/{{$lirunlist->id}}.html"><img src="{{$lirunlist->litpic}}"/></a>
+            <span class="cp-font">
+            <a href="/{{$lirunlist->arctype->real_path}}/{{$lirunlist->id}}.html">{{$lirunlist->title}}</a>
+          </span>
+        </li>
+        @endforeach
+    </ul>
+</div>
+<!--产品展示 end-->
+<hr/>
+
 @stop
